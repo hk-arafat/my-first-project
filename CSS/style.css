@@ -137,7 +137,6 @@ body {
     float: left;
     width: 40%;
     height: 600px;
-    background-color: rgb(209, 39, 39);
     margin: 15px 140px ;
     transition: 1s;
 }
