@@ -123,21 +123,28 @@ body {
 #work .work-left {
     float: left;
     width: 38%;
-    background-image: url(/aurelia-it.png);
+    background-image: url(aurelia-it.png);
     background-repeat: no-repeat;
     background-size: 670px;
     margin: 15px 0px 0px 105px;
     height: 600px;
+    box-shadow: 0px 0px 10px 0px #000;
     transition: 1s;
 }
+#work .work-left img {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #work .work-left:hover {
-    box-shadow: 0px 0px 30px 5px #000;
+    box-shadow: 0px 0px 38px 5px #000;
 }
 #work .work-right {
     float: left;
     width: 40%;
     height: 600px;
     margin: 15px 140px ;
+    box-shadow: 0px 0px 10px 0px #000;
     transition: 1s;
 }
 #work .work-right:hover {
@@ -173,7 +180,7 @@ body {
     font-weight: bold;
 }
 #work .work-right {
-    background-image: url(/coding-state.jpg);
+    background-image: url(coding-state.jpg);
     background-repeat: no-repeat;
     background-size: 700px;
 }
@@ -204,9 +211,10 @@ body {
                         /*--service--*/
 
 #service {
-    background-image: url(/campus.png);
+    background-image: url(campus.png);
     background-size: cover;
     height: 1000px;
+    background-color: rgb(65, 61, 61);
     background-attachment: fixed;
 }
 #service h2 {
@@ -223,10 +231,11 @@ body {
     margin-top: 30px;
     margin-right: 100px;
     margin-left: 300px;
-    background-image: url(/design.jpg);
+    background-image: url(design.jpg);
     background-repeat: no-repeat;
     background-size: 999px;
     border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px rgb(76, 202, 51);
     transition: 850ms;
 }
 #service .service-left:hover {
@@ -237,9 +246,10 @@ body {
     width: 30%;
     height: 665px;
     margin-top: 30px;
-    background-image: url(/develop.jpg);
+    background-image: url(develop.jpg);
     background-repeat: no-repeat;
     border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px rgb(76, 202, 51);
     transition: 850ms;
 }
 #service .service-right:hover {
@@ -309,7 +319,6 @@ body {
     padding-top: 40px;
     padding-bottom: 15px;
 }
-
 .contact-me a {
     margin-top: 5px;
     font-size: 50px;
